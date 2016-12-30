@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_new_expense">Add New Expense</string>
+    <string name="choose_category">Choose Category (required)</string>
+    <string-array name="category_arrays">
+        <item>--Select Category (required)--</item>
+        <item>Electricity</item>
+        <item>Gas</item>
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Mobile-Tariff</item>
+        <item>House-Rent</item>
+        <item>Travelling</item>
+        <item>House-Loan</item>
+        <item>Restaurant</item>
+        <item>Hotel</item>
+        <item>Clothes</item>
+        <item>Footwear</item>
+        <item>Education</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Appliances</item>
+        <item>Gadgets</item>
+        <item>Furniture</item>
+        <item>Domestic-Help</item>
+        <item>Medical</item>
+        <item>TV-Subscription</item>
+        <item>Internet-Tariff</item>
+        <item>House-Maintenance</item>
+        <item>Grocery</item>
+        <item>Life-Insurance-Premium</item>
+        <item>Vehicle-Insurance-Premium</item>
+        <item>Medical-Insurance-Premium</item>
+        <item>Food</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_view_expense">Expense Summary</string>
+    <string name="title_activity_view_expense_details">View Expense Details</string>
+
+</resources>

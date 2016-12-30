@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    >
+    <!--https://github.com/Bearded-Hen/Android-Bootstrap/wiki/Bootstrap-Button-->
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnAddNew"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Add New Expense"
+        android:layout_margin="10dp"
+        bootstrap:bb_icon_left="fa-plus"
+        bootstrap:bb_type="success"
+        android:onClick="goToNewExpense"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnViewExpense"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Expense Summary"
+        android:layout_below="@+id/btnAddNew"
+        bootstrap:bb_icon_left="fa-list-ul"
+        bootstrap:bb_type="primary"
+        android:layout_margin="10dp"
+        android:onClick="goToExpenseSummary"
+        />
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnSettings"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="About"
+        android:layout_below="@+id/btnViewExpense"
+        bootstrap:bb_icon_left="fa-info"
+        bootstrap:bb_type="default"
+        android:layout_margin="10dp"
+        android:onClick="about"
+        />
+
+</RelativeLayout>
